@@ -6,10 +6,10 @@ client = OpenAI(
     api_key=st.secrets["openrouter_api_key"],
 )
 
-st.header("Fast Chat App")
+st.header("Deep GPT ⚡︎")
 st.divider()
 
-if "messages" not in st.session_state:
+if "messages" not in st.ses®sion_sta®te:
     st.session_state.messages = [
         {
             "role": "assistant",
