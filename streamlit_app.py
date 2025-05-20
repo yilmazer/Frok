@@ -9,7 +9,7 @@ client = OpenAI(
 st.header("Deep GPT ⚡︎")
 st.divider()
 
-if "messages" not in st.ses®sion_sta®te:
+if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "assistant",
