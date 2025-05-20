@@ -3,7 +3,7 @@ import streamlit as st
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=openrouter_api_key,
+    api_key=st.secrets["openrouter_api_key"],
 )
 
 st.header("Fast Chat App")
